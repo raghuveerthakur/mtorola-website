@@ -1,0 +1,497 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    /* background-color: cadetblue; */
+    display: flex;
+    padding-inline: 10px;
+    background-color:#001428;
+}
+
+.navbar span img{
+    width: 130px;
+    color: white;
+}
+.navbar span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    width: 35%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navbar ul li{
+    width: 100%;
+    height: auto;
+    display: flex;
+} 
+.navbar span input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+}
+.navbar ul li i{
+    font-size: 25px;
+}
+
+.navbar-2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color:#001428;
+    padding-inline: 10px;
+}
+.navbar-2 ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+}
+.container1{
+  width: 100%;
+  height: auto; 
+  display: flex;
+}
+.left-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: black;
+   flex-direction: column;
+   text-align: start;
+   padding-left: 100px;
+    
+}
+.right-section{
+    width: 50%;
+    height: auto;
+}
+.right-section img{
+    width: 100%;
+}
+.left-section h1 img{
+    width: 100px;
+}
+.left-section h4{
+    padding-top: 20px;
+}
+.left-section button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+background-color: black;
+color: white;
+border: none;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.container-2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#001428;
+}
+.box{
+width: 220px;
+height: 50px;
+border: 1px solid rgb(56, 49, 49);
+background-color: #0b1e32;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(158, 140, 140);
+}
+
+.container-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color:#001428;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.boxes{
+    width: 27%;
+    height: 520px;
+    border: 1px solid rgb(56, 49, 49);
+    background-color: #0b1e32;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 5px;
+    color: white;
+    flex-direction: column;
+
+}
+.boxes img{
+    width: 370px;
+    /* padding-top: 20px; */
+}
+.boxes h3{
+    padding-top: 7px;
+}
+.boxes button{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-top:25px;
+}
+.boxes h1{
+    padding-top: 20px;
+}
+.boxes:nth-child(2) img {
+    width: 340px;
+}
+
+.container4{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background-color:#001428;
+    padding-top: 30px;
+}
+.part1{
+    width: 50%;
+    height:auto;
+    background-image: url(./chandrayan1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.part2{
+    width: 50%;
+    height: auto;
+    background-image: url(./music\ bk\ ground.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-5{
+    width: 100%;
+    height: auto;
+    background-color:#001428;
+    color: white;
+}
+.container-5 h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.container6{
+    width: 100%;
+    height: auto;
+    background-color:#001428;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .box1{
+    width: 17%;
+    height: 380px;
+    border: 1px solid rgb(56, 49, 49);
+    background-color: #0b1e32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-block: 25px;
+} 
+.box1 img{
+    width: 200px;
+}
+.box1 img:hover{
+    width:220px ;
+}
+
+.box1 button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid rgb(116, 109, 109);
+}
+
+.container7{
+    width: 100%;
+    height: 300px;
+    background-color: #001428;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container7 input{
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-top: 35px;
+}
+.container7 span-1 button{
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #152a41;
+    border: none;
+    margin-top: 30px;
+     color: rgb(175, 164, 164);
+}
+.container7 span-2 button{
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #152a41;
+    border: none;
+   margin-top: 10px;
+    color: rgb(175, 164, 164);
+}
+
+.container8{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+  background-color: #152a41;
+}
+
+.left-8{
+    width: 5%;
+    height: auto;
+}
+
+.right-8{
+  width: 95%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;text-align: center;
+  color: white;
+
+}
+
+.container8 input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 30px;
+    border: none;
+font-size: 16px;
+}
+
+.container9{
+    width: 100%;
+    height:auto ;
+    display: flex;
+    flex-direction: row;
+    background-color: #001428;
+    color: white;
+    padding-top: 40px;
+    
+}
+.past1{
+    width: 30%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 180px;
+    font-size: 15px;
+}
+.past1 img{
+    width: 200px;
+    height: auto;
+    padding-top: 20px;
+}
+.past2{
+    width: 30%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    font-size: 18px;
+}
+
+.past2 i{
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 25px;
+}
+.past3{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.past3 img{
+    width: 50px;
+}
+.container10{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #001428;
+    color: white;
+    padding-top: 80px;
+}
+.container10 ul{
+   width: 100%;
+   height: auto;
+   list-style: none;
+   padding-left: 20px;
+}
+.container10 ul li{
+    padding: 6px;
+    color: rgb(101, 97, 97)01, 97, 97);
+}
+.container11{
+    width: 100%;
+    height:150px;
+    flex-direction:column; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 22px;
+}
+
+@media(max-width:768px){
+
+.main-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+}
+.navbar ul li{
+    display: none;
+}
+.navbar-2{
+    display: none;
+}
+.navbar span input{
+    width: 100%;
+    margin-left: 200px;
+}
+.container1{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section{
+    width: 100%;
+    height: auto;
+}
+.right-section{
+    width: 80%;
+    height: auto;
+    padding-top: 40px;
+}
+.container-2{
+    width: 100%;
+    height: auto;
+    padding-inline: 20px;
+    padding-top: 20px;
+}
+.box{
+    width: 20%;
+    height: 50px;
+}
+.container-3{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.boxes{
+    width:40%;
+    height: auto;
+}
+.container4{
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+    padding-inline: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.part1{
+    width: 50%;
+    height: auto;
+}
+.part2{
+    width: 50%;
+    height: auto;
+}
+.container9{
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
